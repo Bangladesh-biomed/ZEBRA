@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BioMed Hub</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f2f6f5;
+      color: #19352e;
+    }
+    header {
+      background: #145943;
+      color: white;
+      padding: 24px;
+      text-align: center;
+    }
+    main {
+      max-width: 900px;
+      margin: 25px auto;
+      padding: 16px;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 16px;
+    }
+    .card {
+      background: white;
+      padding: 22px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px #0000000d;
+    }
+    .card h2 {
+      color: #167653;
+      font-size: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #52665f;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>BioMed Hub</h1>
+    <p>Biomedical Equipment Management System</p>
+  </header>
+
+  <main>
+    <h2>Dashboard</h2>
+    <p>Welcome to your open-source biomedical workspace.</p>
+
+    <div class="cards">
+      <section class="card">
+        <h2>Equipment Inventory</h2>
+        <p>Manage medical equipment records and locations.</p>
+      </section>
+      <section class="card">
+        <h2>Preventive Maintenance</h2>
+        <p>Track maintenance plans and completion dates.</p>
+      </section>
+      <section class="card">
+        <h2>Breakdown & Repair</h2>
+        <p>Record equipment faults and repair activities.</p>
+      </section>
+      <section class="card">
+        <h2>Calibration</h2>
+        <p>Monitor calibration status and due dates.</p>
+      </section>
+      <section class="card">
+        <h2>AMC / CMC</h2>
+        <p>Track service contracts and expiry dates.</p>
+      </section>
+      <section class="card">
+        <h2>Spare Parts</h2>
+        <p>Organize spare parts and stock records.</p>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    BioMed Hub · Open-source project
+  </footer>
+</body>
+</html>
